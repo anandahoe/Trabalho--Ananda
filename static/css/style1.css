@@ -23,3 +23,44 @@ p {
     margin-top: 0;
     font-weight: 300;
 }
+
+
+.cabecalho {
+    display: inline-block;
+    position: relative;
+  }
+
+.cabecalho h1 {
+    position: relative;
+    top: 30%;
+    left: 12%;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 600;
+    line-height: 2;
+    text-decoration-line: overline underline;
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 0.01em;
+  }
+
+.cabecalho p{
+    position: absolute;
+    color: white;
+    top: 70%;
+    font-size: 0.8em;
+    left: 3%
+
+}
+
+button {
+    margin: 30px;
+  }
+
+.btn-1 {
+    background:rgb(203, 205, 209);
+    border: none;
+  }
+
+.btn-1:hover {
+    background: rgb(138, 171, 237);
+  }
