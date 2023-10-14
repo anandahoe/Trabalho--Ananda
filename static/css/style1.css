@@ -8,7 +8,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     line-height: 1.75;
-    background-color: #f7f7f7f6;
+    background-color:rgb(203, 205, 209);
 }
 
 h1,
@@ -25,7 +25,7 @@ p {
     font-weight: 300;
 }
 
-/* button {
+button {
     margin: 30px;
   }
 
@@ -36,7 +36,8 @@ p {
 
 .btn-1:hover {
     background: rgb(138, 171, 237);
-  } */
+  }
+
 
 .cabecalho {
   width:100%;
@@ -49,7 +50,6 @@ p {
   width: 100%;
 }
 
-
 .cabecalho img {
   width: 100%;
 } 
@@ -58,7 +58,6 @@ p {
   font-size: 0.8rem;
   text-shadow: 2px 2px 3px silver;
   font-weight: 600;
-  padding: 0.7rem;
 }
 
 .cabecalho p{
@@ -87,7 +86,6 @@ p {
   opacity: 0.5;
 }
 
-
 .texto_titulo{
   position: absolute;
   text-align: center;
@@ -100,9 +98,27 @@ p {
   display: none;
 }
 
-@media screen and (min-width: 490px) {
+.container{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.figure{
+margin-top: 20px;
+}
+
+.container h2{
+  margin-top: 20px;
+}
+
+.container p{
+  text-align: justify;
+}
+
+
+@media screen and (min-width: 500px) {
   .cabecalho h1{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   
   .cabecalho p{
@@ -114,6 +130,7 @@ p {
     text-align: center;
     position: sticky;
     top: 0;
+    background-color:rgb(203, 205, 209);
 
   }
   .menu ul{
@@ -124,7 +141,7 @@ p {
 
   .menu li {
       display: inline-block;
-      margin: 0 .3em;
+      margin: 0.3rem;
   }
 
   .menu_item {
@@ -135,11 +152,11 @@ p {
     border-radius: 8px;
     line-height: 2em;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 
 .menu_item:hover {
-  background-color:rgb(203, 205, 209);
+  background-color:silver;
 }
 
 .menu_item:active {
@@ -148,6 +165,17 @@ p {
 }
 
 @media screen and (min-width: 980px) {
+  .cabecalho h1{
+    font-size: 4rem;
+  }
+
+  .cabecalho p{
+    font-size: 2rem;
+  }
+
+.menu_item { 
+  font-size: 2rem;
+}
 
 }
 
