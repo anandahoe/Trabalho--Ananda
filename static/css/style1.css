@@ -115,6 +115,52 @@ margin-top: 20px;
   text-align: justify;
 }
 
+.miniatura {
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+.centro {
+  text-align: center;
+}
+
+footer {
+  padding: 2rem;
+}
+
+footer p, address{
+  font-size: 0.8rem;
+}
+
+footer h2{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.midias-sociais li {
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+footer p, address{
+    font-size: 0.8rem;
+}
+  
+footer h2{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+footer a, link{
+  text-decoration: none;
+  color: black;
+}
+
+footer dl {
+  display: grid;
+  grid-template-columns:max-content 2fr;
+}
+
 
 @media screen and (min-width: 500px) {
   .cabecalho h1{
@@ -122,7 +168,7 @@ margin-top: 20px;
   }
   
   .cabecalho p{
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .menu {
@@ -164,9 +210,18 @@ margin-top: 20px;
 }
 }
 
+footer p, address{
+  font-size: 1rem;
+}
+
+footer h2{
+  font-size: 1.2rem;
+}
+
+
 @media screen and (min-width: 980px) {
   .cabecalho h1{
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .cabecalho p{
