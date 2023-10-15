@@ -21,7 +21,6 @@ a,
 address,
 i,
 p {
-    margin-top: 0;
     font-weight: 300;
 }
 
@@ -161,6 +160,13 @@ footer dl {
   grid-template-columns:max-content 2fr;
 }
 
+.altura{
+  height: 30rem;
+}
+
+.mapa{
+  border: 20px;
+}
 
 @media screen and (min-width: 500px) {
   .cabecalho h1{
