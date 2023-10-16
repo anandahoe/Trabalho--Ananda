@@ -161,11 +161,39 @@ footer dl {
 }
 
 .altura{
-  height: 30rem;
+  height: 20rem;
 }
 
 .mapa{
   border: 20px;
+}
+
+.margem {
+  padding: 1rem;
+}
+
+.margem p{
+  padding: 0 3rem 0 3rem;
+}
+
+.input-group{
+  padding: 1rem;
+}
+
+h2{
+  font-size: 1.2rem;
+}
+
+p{
+  font-size: 0.8rem;
+}
+
+.carousel h2{
+  font-size: 1.2rem;
+}
+h3{
+  font-size: 1rem;
+  padding: 1rem;
 }
 
 @media screen and (min-width: 500px) {
@@ -180,7 +208,6 @@ footer dl {
   .menu {
     display: block;
     text-align: center;
-    position: sticky;
     top: 0;
     background-color:rgb(203, 205, 209);
 
@@ -214,7 +241,6 @@ footer dl {
 .menu_item:active {
   background-color: silver;
 }
-}
 
 footer p, address{
   font-size: 1rem;
@@ -224,6 +250,21 @@ footer h2{
   font-size: 1.2rem;
 }
 
+h2{
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+.carousel h2{
+  font-size: 2rem;
+}
+.altura{
+  height: 40rem;
+}
+}
 
 @media screen and (min-width: 980px) {
   .cabecalho h1{
@@ -238,6 +279,17 @@ footer h2{
   font-size: 2rem;
 }
 
+h2{
+  font-size: 3rem;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+.carousel h2{
+  font-size: 3rem;
+}
 }
 
 
