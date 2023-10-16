@@ -196,6 +196,22 @@ h3{
   padding: 1rem;
 }
 
+.container p{
+  padding: 1rem;
+}
+.container img{
+  padding: 1rem;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-text{
+ height: 20rem;
+}
+
 @media screen and (min-width: 500px) {
   .cabecalho h1{
     font-size: 1.5rem;
