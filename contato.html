@@ -24,19 +24,17 @@
             </div>
         </div>
     </header>
-
-        <nav class="menu">
+    <nav class="menu">
             <ul>
                 <li><a href="index1.html" class="menu_item">Home</a></li>
                 <li><a href="ushuaia.html" class="menu_item">Ushuaia</a></li>
                 <li><a href="el_chalten.html" class="menu_item">El Chaltén</a></li>
                 <li><a href="el_calafate.html" class="menu_item">El Calafate</a></li>
-                <li><a href="contato.html" class="menu_item">Contato</a></li>
+                <li><a href="contato.html" class="menu_item">Sobre mim</a></li>
             </ul>
-        </nav>
-        <aside class="container">
-            <section>
-                <div>
+    </nav>
+    <main>
+            <div class="container text-center">
                     <div class="text-center">
                         <img src="static/img/ananda_hoefelmann.jpeg" class= "miniatura img-thumbnail" alt="Foto da Ananda Hoefelmann">
                         <h2>Ananda Hoefelmann</h2>
@@ -44,47 +42,58 @@
                             Já passou por 19 países e 10 estados brasileiros, mas possui o sonho de conhecer o mundo todo.
                         </p>
                     </div>
+                    <div class="fotos">
                         <h3 class="centro">Algumas fotos por aí</h3>
-                            <div class="centro">
-                                <figure class="figure"></figure>
-                                    <img src="static/img/berlin.jpg" class="miniatura img-thumbnail" alt="Berlin">
-                                    <figcaption class="figure-caption">Berlim - Alemanha.</figcaption>
-                                </figure>
-                            </div>
-                            <div class="centro">
-                                <figure class="figure"></figure>
-                                    <img src="static/img/goias.jpeg" class="miniatura img-thumbnail" alt="Goiás">
-                                    <figcaption class="figure-caption">Chapada dos Veadeiros - Goiás.</figcaption>
-                                </figure>
-                            </div>
-                            <div class="centro">
-                                <figure class="figure"></figure>
-                                    <img src="static/img/oktober.jpg" class="miniatura img-thumbnail" alt="Oktoberfest em Munique">
-                                    <figcaption class="figure-caption">Oktoberfest em Munique - Alemanha.</figcaption>
-                                </figure>
-                            </div>
-                            <div class="centro">
-                                <figure class="figure"></figure>
-                                    <img src="static/img/oslo.jpg" class="miniatura img-thumbnail" alt="Oslo">
-                                    <figcaption class="figure-caption">Oslo - Noruega</figcaption>
-                                </figure>
-                            </div>
-                            <div class="centro">
-                                <figure class="figure"></figure>
-                                    <img src="static/img/santorini.JPG" class="miniatura img-thumbnail" alt="Santorini">
-                                    <figcaption class="figure-caption">Santorini - Grécia.</figcaption>
-                                </figure>
-                            </div>
-                            <div class="centro">
-                                <figure class="figure"></figure>
-                                    <img src="static/img/patinacao.jpg" class="miniatura img-thumbnail" alt="Patinação no gelo">
-                                    <figcaption class="figure-caption">Patinação no gelo em Berlim - Alemanha.</figcaption>
-                                </figure>
-                            </div>
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="static/img/berlin.jpg" class="altura figure-img img-fluid rounded" alt="Berlin na Alemanha">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Berlin</h5>
+                                        <p class="text-center">Palácio do Reichstag em Berlin.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="static/img/goias.jpeg" class="altura figure-img img-fluid rounded" alt="Chapada dos Veadeiros em Goiás">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Chapada dos Veadeiros - Goiás.</h5>
+                                        <p class="text-center">Chapada dos Veadeiros - Goiás.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="static/img/oktober.jpg" class="altura figure-img img-fluid rounded" alt="Oktoberfest em Munique">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Oktoberfest em Munique - Alemanha</h5>
+                                        <p class="text-center">Oktoberfest em Munique - Alemanha</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="static/img/oslo.jpg" class="altura figure-img img-fluid rounded" alt="Oslo na Noruega">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Museu Viking em Oslo - Noruega</h5>
+                                        <p class="text-center">Museu Viking em Oslo - Noruega</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="static/img/santorini.JPG" class="altura figure-img img-fluid rounded" alt="Santorini na Grécia">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Santorini na Grécia</h5>
+                                        <p class="text-center">Santorini na Grécia</p>
+                                    </div>
+                                </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
-                </div>
-        </aside>
-
+                        </div>
+            </div>
+    </main>
 <footer class="text-center">
             <div class="row">
                 <div class="col">
